@@ -1,0 +1,182 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: #FBFCFE;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #E6E6E6;
+    background-color: white;
+}
+
+.navbar-item {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-item>a {
+    padding-left: 32px;
+    padding-right: 32px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-item>a:hover {
+    color: #1100DA;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+.brand>h1>a {
+    text-decoration: none;
+    color: black;
+}
+
+.brand>h1 {
+    font-weight: normal;
+}
+
+.bitcoin-icon {
+    transform: matrix(0.97, -0.22, 0.23, 0.97, 0, 0);
+    font-size: 32px;
+}
+
+.login-icon {
+    font-size: x-large;
+}
+
+.title {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.coin-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coin-table>table {
+    width: 75%;
+    border-collapse: collapse;
+}
+
+.coin-table>th,td{
+    border-bottom: solid 1px;
+    border-top: solid 1px;
+    border-color:#DEDEDE ;
+    padding: 25px;    
+}
+
+.table-title{
+    font-weight: bold;
+}
+
+.coin-sym{
+    color: #989898; font-weight: bold;
+}
+
+.vote{
+    text-align: center;
+    border-left: solid 1px;
+    border-color: #DEDEDE;
+}
+
+.vote-icon :hover{
+    color: #1100DA;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+.vote-icon{
+    display: flex;
+    justify-content: space-around;
+}
+
+.table-align{
+    text-align: right;
+}
+
+.title-align{
+    text-align: left;
+}
+
+.main{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.modal-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 421px;
+    height: 70px;
+    box-shadow: -1px 3px 32px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    background-color: white;
+    margin: 15% auto;
+    /* 15% from the top and centered */
+}
+
+.modal-content>p {
+    font-size: 15px;
+}
+
+.modal-content>input {
+    width: 146px;
+    height: 31px;
+    background: #F0EDED;
+    border-radius: 11px;
+    border: none;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+    padding-left: 20px;
+}
+
+*:focus {
+    outline: none;
+}
+
+.modal-content>a {
+    font-size: 20px;
+    color: #9A9A9A;
+    cursor: pointer;
+}
+
+.per-sym {
+    position: absolute;
+    margin-left: 270px;
+    color: #B4B4B4;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+

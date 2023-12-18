@@ -1,0 +1,67 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: #FBFCFE;
+}
+
+a {
+    color: black;
+}
+
+img {}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #E6E6E6;
+    background-color: white;
+}
+
+.navbar-item {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-item>a {
+    padding-left: 32px;
+    padding-right: 32px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-item>a:hover {
+    color: #1100DA;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+.brand>h1>a {
+    text-decoration: none;
+    color: black;
+}
+
+.brand>h1 {
+    font-weight: normal;
+}
+
+.bitcoin-icon {
+    transform: matrix(0.97, -0.22, 0.23, 0.97, 0, 0);
+    font-size: 32px;
+}
+
+.login-icon {
+    font-size: x-large;
+}
+
+.container {
+    display: flex;
+    width: 70%%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

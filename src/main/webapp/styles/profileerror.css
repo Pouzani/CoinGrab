@@ -1,0 +1,249 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: #FBFCFE;
+}
+
+img {
+    border-radius: 50%;
+    width: 150px;
+}
+
+img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #E6E6E6;
+    background-color: white;
+}
+
+.navbar-item {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-item>a {
+    padding-left: 32px;
+    padding-right: 32px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-item>a:hover {
+    color: #1100DA;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+.brand>h1>a {
+    text-decoration: none;
+    color: black;
+}
+
+.brand>h1 {
+    font-weight: normal;
+}
+
+.bitcoin-icon {
+    transform: matrix(0.97, -0.22, 0.23, 0.97, 0, 0);
+    font-size: 32px;
+}
+
+.login-icon {
+    font-size: x-large;
+}
+
+.signup {
+    margin-top: 30px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.signup-layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1100px;
+    height: 800px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 36px -2px rgba(0, 0, 0, 0.25);
+    border-radius: 22px;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.signup-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+}
+
+.signup-essentails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+label {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+input {
+    width: 400px;
+    height: 68px;
+    border: 1px solid #D1D1D1;
+    border-radius: 14px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-size: 16px;
+    padding-left: 32px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+input::placeholder {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #D1D1D1;
+}
+
+.item-input {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.pass-label {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pass-label>a {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #ADADAD;
+}
+
+.signup-button {
+    width: 350px;
+    height: 71px;
+    background: #FFFFFF;
+    border: 1px solid #FF0000;
+    border-radius: 18px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FF0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.signup-button:hover {
+    background: #FF0000;
+    border: 1px solid #FF0000;
+    border-radius: 18px;
+    color: white;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+.signup-btn-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logout{
+    font-weight: 600;
+}
+
+.delete {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FF0000;
+    text-decoration: underline;
+}
+
+.two-inputs-layout {
+    display: flex;
+    gap: 19px;
+}
+
+.two-inputs-item {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.two-inputs-item>input {
+    width: 181px;
+    height: 68px;
+}
+
+.signup-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.save-button {
+    width: 350px;
+    height: 71px;
+    background: #FFFFFF;
+    border: 1px solid #1100DA;
+    border-radius: 18px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #1100DA;
+}
+
+.save-button:hover {
+    background: #1100DA;
+    border: 1px solid #1100DA;
+    border-radius: 18px;
+    color: white;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+.error::placeholder{
+	color:red;
+	opacity: 0.5;
+}

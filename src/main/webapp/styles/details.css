@@ -1,0 +1,153 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: #FBFCFE;
+}
+
+a {
+    color: black;
+}
+
+img {
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #E6E6E6;
+    background-color: white;
+}
+
+.navbar-item {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-item>a {
+    padding-left: 32px;
+    padding-right: 32px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-item>a:hover {
+    color: #1100DA;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+.brand>h1>a {
+    text-decoration: none;
+    color: black;
+}
+
+.brand>h1 {
+    font-weight: normal;
+}
+
+.bitcoin-icon {
+    transform: matrix(0.97, -0.22, 0.23, 0.97, 0, 0);
+    font-size: 32px;
+}
+
+.login-icon {
+    font-size: x-large;
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.coin-sym {
+    color: #989898;
+    font-weight: bold;
+    padding-left: 6px;
+}
+
+.coin-info {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.table-detail {
+    width: 100%;
+}
+
+.table-title {
+    font-weight: bold;
+}
+
+.right-text {
+    text-align: right;
+}
+
+.votes-container {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.votes-container>div>h3 {
+    color: #989898;
+    font-weight: 600;
+}
+
+.vote-count {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.modal-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 421px;
+    height: 70px;
+    box-shadow: -1px 3px 32px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    background-color: white;
+    margin: 15% auto;
+    /* 15% from the top and centered */
+}
+
+.modal-content>p {
+    font-size: 15px;
+}
+
+.modal-content>input {
+    width: 146px;
+    height: 31px;
+    background: #F0EDED;
+    border-radius: 11px;
+    border: none;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+    padding-left: 20px;
+}
+
+*:focus {
+    outline: none;
+}
+
+.modal-content>a {
+    font-size: 20px;
+    color: #9A9A9A;
+    cursor: pointer;
+}
+
+.per-sym {
+    position: absolute;
+    margin-left: 270px;
+    color: #B4B4B4;
+}
