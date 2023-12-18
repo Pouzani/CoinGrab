@@ -31,6 +31,8 @@ public class ControllerServlet extends HttpServlet {
 
 	private static final String USER = "user";
 
+	private String test;
+
 	private UserDAO userDao;
 	private AdminDAO adminDao;
 	private ClientDAO clientDao;
